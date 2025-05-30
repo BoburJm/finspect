@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://www.google.com https://maps.googleapis.com; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com;">
+    
+    <!-- Resource hints for better performance -->
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//unpkg.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://unpkg.com">
+    
+    <title>Finspect Advisory | Financial Consulting & CFO Services</title>
+    <link rel="stylesheet" href="css/responsive-fixes.css?v=1.0">
+    <link rel="stylesheet" href="css/normalize.css?v=1.0">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="css/animations.css?v=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Header -->
+        <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo-container">
+                <img src="images/logo.png" alt="Finspect Advisory Logo" class="logo">
+            </a>
+            <div class="language-selector">
+                <button class="language-btn" data-lang="en">EN</button>
+                <button class="language-btn" data-lang="ru">RU</button>
+                <button class="language-btn active" data-lang="uz">UZ</button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about" data-i18n="nav.about">About</a></li>
+                    <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                    <!-- <li><a href="#expertise" data-i18n="nav.expertise">Expertise</a></li> -->
+                    <li><a href="#recognition" data-i18n="nav.recognition">Recognition</a></li>
+                    <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                <h1 data-i18n="hero.title">Financial Expertise for Global Business</h1>
+                <p data-i18n="hero.description">Finspect Advisory provides end-to-end management reporting, financing, and CFO consulting services with global experience and local expertise.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.contact">Book a Consultation</a>
+                    <a href="#services" class="btn btn-outline" data-i18n="hero.services">Our Services</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                <img src="images/logo-large.png" alt="Finspect Advisory">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="section-tag" data-i18n="about.tag">About Us</div>
+                    <h2 data-i18n="about.title">Who We Are</h2>
+                    <p data-i18n="about.description">At Finspect Advisory, we have a dedicated team of professionals with extensive experience in managing end-to-end management reporting, financing, and CFO consulting services.</p>
+                    
+                    <div class="feature-items">
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fas fa-globe feature-icon"></i>
+                            <span data-i18n="about.feature1">Bring global experience</span>
+                        </div>
+                        
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fas fa-shield-alt feature-icon"></i>
+                            <span data-i18n="about.feature2">Have wide breadth of capabilities</span>
+                        </div>
+                        
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fas fa-check-circle feature-icon"></i>
+                            <span data-i18n="about.feature3">Value what's important to you</span>
+                        </div>
+                        
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                            <i class="fas fa-users feature-icon"></i>
+                            <span data-i18n="about.feature4">Focus on building trust in relationships</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="images/abouts.jpg" alt="About Us">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag" data-i18n="services.tag">Services</div>
+                <h2 data-i18n="services.title">Our Consulting Services</h2>
+                <p class="section-description" data-i18n="services.description">Finspect Advisory offers:</p>
+            </div>
+            
+            <div class="services-grid four-services">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-cogs service-icon"></i>
+                    <h3 class="service-title" data-i18n="services.optimization.title">Optimization of financial process</h3>
+                    <ul class="service-details">
+                        <li data-i18n="services.optimization.point1">Reviewing financial process</li>
+                        <li data-i18n="services.optimization.point2">Automation, optimization business process (implementation of ERP)</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h3 class="service-title" data-i18n="services.analysis.title">Financial analysis</h3>
+                    <ul class="service-details">
+                        <li data-i18n="services.analysis.point1">General financial ratios analysis</li>
+                        <li data-i18n="services.analysis.point2">Special ratios and analysis depending on business</li>
+                        <li data-i18n="services.analysis.point3">Capital structure analysis, working capital efficiency and full capacity analysis along with breakeven point</li>
+                        <li data-i18n="services.analysis.point4">Ad hoc reports for decision making</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-chart-bar service-icon"></i>
+                    <h3 class="service-title" data-i18n="services.planning.title">Financial planning and forecasting/budgeting</h3>
+                    <ul class="service-details">
+                        <li data-i18n="services.planning.point1">Budgeting/forecasting business metrics (both commercial and financial) and financial statements</li>
+                        <li data-i18n="services.planning.point2">Variance analysis</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-calculator service-icon"></i>
+                    <h3 class="service-title" data-i18n="services.modeling.title">Financial modeling</h3>
+                    <ul class="service-details">
+                        <li data-i18n="services.modeling.point1">Modeling business cases for new projects/new business streams/products and services which includes 3-Statement modeling/DCF/Market comparison approaches</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag" data-i18n="expertise.tag">Expertise</div>
+                <h2 data-i18n="expertise.title">Our Specialized Services</h2>
+                <p class="section-description" data-i18n="expertise.description">We offer a wide range of specialized financial and consulting services to meet your business needs.</p>
+            </div>
+            
+            <div class="expertise-grid">
+                <div class="expertise-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-check-circle expertise-icon"></i>
+                    <div>
+                        <h3 class="expertise-title" data-i18n="expertise.ratings.title">Credit Ratings</h3>
+                        <p class="expertise-description" data-i18n="expertise.ratings.description">Obtaining international credit ratings from Moody's, S&P and Fitch.</p>
+                    </div>
+                </div>
+                
+                <div class="expertise-item" data-aos="fade-up" data-aos-delay="150">
+                    <i class="fas fa-check-circle expertise-icon"></i>
+                    <div>
+                        <h3 class="expertise-title" data-i18n="expertise.market.title">Market Entry Analysis</h3>
+                        <p class="expertise-description" data-i18n="expertise.market.description">Perform market entry analysis into Uzbekistan, including market research, tax and regulatory compliance.</p>
+                    </div>
+                </div>
+                
+                <div class="expertise-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-check-circle expertise-icon"></i>
+                    <div>
+                        <h3 class="expertise-title" data-i18n="expertise.diligence.title">Due Diligence</h3>
+                        <p class="expertise-description" data-i18n="expertise.diligence.description">Assist with vendor due diligence by Big 4 consulting firms on company, and diligence on acquiring company.</p>
+                    </div>
+                </div>
+                
+                <div class="expertise-item" data-aos="fade-up" data-aos-delay="250">
+                    <i class="fas fa-check-circle expertise-icon"></i>
+                    <div>
+                        <h3 class="expertise-title" data-i18n="expertise.banking.title">International Banking</h3>
+                        <p class="expertise-description" data-i18n="expertise.banking.description">Worked with international banks/financial institutions (such as Goldman Sachs, HSBC) on financing and acquisition transactions.</p>
+                    </div>
+                </div>
+                
+                <div class="expertise-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-check-circle expertise-icon"></i>
+                    <div>
+                        <h3 class="expertise-title" data-i18n="expertise.big4.title">Big 4 Collaboration</h3>
+                        <p class="expertise-description" data-i18n="expertise.big4.description">Worked with Big 4 consulting firms on many projects including audit, accounts prep, tax, regulations, due diligence, acquisition planning and valuation.</p>
+                    </div>
+                </div>
+                
+                <div class="expertise-item" data-aos="fade-up" data-aos-delay="350">
+                    <i class="fas fa-check-circle expertise-icon"></i>
+                    <div>
+                        <h3 class="expertise-title" data-i18n="expertise.bookkeeping.title">Bookkeeping Services</h3>
+                        <p class="expertise-description" data-i18n="expertise.bookkeeping.description">Provide certain bookkeeping and data verification services for businesses of all sizes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Recognition Section -->
+    <section id="recognition" class="recognition">
+        <div class="container">
+            <div class="recognition-content">
+                <div class="recognition-text" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="section-tag light" data-i18n="recognition.tag">Recognition</div>
+                    <h2 data-i18n="recognition.title">Award-Winning Expertise</h2>
+                    <p data-i18n="recognition.description">Finspect Advisory has received the Gold Trainee Development award from ACCA in recognition of our work towards preparing IFRS and Finance professionals.</p>
+                    
+                    <div class="award" data-aos="fade-up" data-aos-delay="200">
+                        <div class="award-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div>
+                            <h3 data-i18n="recognition.award.title">ACCA Gold Trainee Development</h3>
+                            <p data-i18n="recognition.award.description">Excellence in professional development</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="recognition-image" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="images/awards.jpg" alt="Award Recognition">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag" data-i18n="contact.tag">Contact Us</div>
+                <h2 data-i18n="contact.title">Get in Touch</h2>
+                <p class="section-description" data-i18n="contact.description">Ready to transform your business? Contact us today for a free consultation.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p data-i18n="contact.address">9, Buyuk Ipak Yuli st., Mirzo-Ulugbek district, Tashkent, UZ</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <p data-i18n="contact.phone">+998974405320</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p data-i18n="contact.email">info@finspect.org</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <p data-i18n="contact.hours">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    </div>
+                    
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d727.757819416351!2d69.22995271502944!3d41.32341826512618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ba7b08f6e6f%3A0x904476cba092793e!2z0JrQvtC90YHQsNC70YLQuNC90LDRjyDQutC-0LzQv9Cw0L3QuNGPIFV0YXg!5e0!3m2!1sen!2s" 
+                                width="600" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Finspect Advisory Office Location">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Finspect Advisory Logo">
+            </div>
+            
+            <p class="footer-copyright" data-i18n="footer.copyright">© <span id="currentYear"></span> Finspect Advisory. All rights reserved.</p>
+            
+            <div class="footer-social">
+                <a href="#" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                
+                <a href="#" class="social-icon" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script>
+      // Fallback for AOS if CDN fails
+      window.addEventListener('load', function() {
+        if (typeof AOS === 'undefined') {
+          console.warn('AOS library failed to load, animations will be disabled');
+          // Remove all AOS attributes to prevent layout issues
+          document.querySelectorAll('[data-aos]').forEach(el => {
+            el.removeAttribute('data-aos');
+            el.removeAttribute('data-aos-duration');
+            el.removeAttribute('data-aos-delay');
+          });
+        }
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/i18n.js?v=2.1"></script>
+    <script src="js/main.js?v=2.0"></script>
+    <script src="js/responsive.js?v=2.0"></script>
+</body>
+</html>
+
