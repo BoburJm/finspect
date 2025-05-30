@@ -46,12 +46,6 @@ Finspect Advisory has received the **ACCA Gold Trainee Development** award for e
 - **Email**: info@finspect.org
 - **Hours**: Monday - Friday: 9:00 AM - 6:00 PM
 
-## 🚀 Deployment
-
-This website is deployed using GitHub Pages. The site is automatically built and deployed from the main branch.
-
-**Live Site**: [Your GitHub Pages URL will be here]
-
 ## 📄 License
 
 © 2025 Finspect Advisory. All rights reserved. 
