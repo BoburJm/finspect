@@ -33,18 +33,23 @@ const translations = {
         title: "Optimization of financial process",
         point1: "Reviewing financial process",
         point2: "Automation, optimization business process (implementation of ERP)",
+        point3: "Setting up management reporting with specific KPIs",
+        point4: "ERP implementation and optimization", 
+        point5: "Power BI and Excel automation (including VBA)"
       },
       analysis: {
         title: "Financial analysis",
-        point1: "General financial ratios analysis",
-        point2: "Special ratios and analysis depending on business",
-        point3: "Capital structure analysis, working capital efficiency and full capacity analysis along with breakeven point",
-        point4: "Ad hoc reports for decision making",
+        point1: "Professional financial reports preparation (P&L, balance sheet, cash flow)",
+        point2: "Comprehensive financial analysis and business diagnostics",
+        point3: "General financial ratios analysis",
+        point4: "Special ratios and analysis depending on business"
       },
       planning: {
         title: "Financial planning and forecasting/budgeting",
-        point1: "Budgeting/forecasting business metrics (both commercial and financial) and financial statements",
-        point2: "Variance analysis",
+        point1: "Development and implementation of budgeting systems",
+        point2: "Budget preparation and business metrics forecasting",
+        point3: "Variance analysis",
+        point4: "Cash flow analysis and forecasting"
       },
       modeling: {
         title: "Financial modeling",
@@ -101,28 +106,33 @@ const translations = {
     },
     services: {
       tag: "Услуги",
-      title: "Наши консультационные услуги",
+      title: "Наши основные услуги",
       description: "Finspect Advisory предлагает:",
       optimization: {
-        title: "Оптимизация финансовых процессов",
-        point1: "Анализ финансовых процессов",
-        point2: "Автоматизация, оптимизация бизнес-процесса (внедрение ERP)",
+        title: "Оптимизация финансового процесса",
+        point1: "Обзор и оптимизация (автоматизация) финансового процесса",
+        point2: "Разработка и настройка планов счетов и финансовых процессов",
+        point3: "Настройка управленческой отчетности с учетом специфических KPI вашего бизнеса",
+        point4: "Внедрение и оптимизация ERP",
+        point5: "Внедрение и автоматизация отчетности через Power BI и Excel (включая VBA-автоматизацию)"
       },
       analysis: {
         title: "Финансовый анализ",
-        point1: "Анализ общих финансовых коэффициентов",
-        point2: "Специальные коэффициенты и анализ в зависимости от бизнеса",
-        point3: "Анализ структуры капитала, эффективности оборотного капитала и анализ полной мощности вместе с точкой безубыточности",
-        point4: "Специальные отчеты для принятия решений"
+        point1: "Подготовка профессиональных финансовых отчетов (P&L, баланс, отчет о движении денежных средств)",
+        point2: "Комплексный финансовый анализ и диагностика бизнеса",
+        point3: "Анализ общих финансовых показателей",
+        point4: "Специальные коэффициенты и анализ в зависимости от бизнеса"
       },
       planning: {
         title: "Финансовое планирование и прогнозирование/бюджетирование",
-        point1: "Бюджетирование/прогнозирование бизнес-показателей (как коммерческих, так и финансовых) и финансовых отчетов",
-        point2: "Анализ отклонений",
+        point1: "Разработка и внедрение системы бюджетирования",
+        point2: "Составление бюджета, прогнозирование показателей бизнеса (как коммерческих, так и финансовых) и самого бизнеса в целом",
+        point3: "Анализ отклонений",
+        point4: "Анализ и прогнозирование денежных потоков (cash flow)"
       },
       modeling: {
         title: "Финансовое моделирование",
-        point1: "Моделирование бизнес-кейсов для новых проектов/новых бизнес-направлений/продуктов и услуг, включая 3-Statement моделирование/DCF/подходы сравнения рынка",
+        point1: "Моделирование бизнес-кейсов для новых проектов/новых направлений бизнеса/продуктов и услуг, включая подходы моделирования с использованием трех утверждений/DCF/сравнения рынков"
       },
     },
     recognition: {
@@ -181,18 +191,23 @@ const translations = {
         title: "Moliyaviy jarayonlarni optimallashtirish",
         point1: "Moliyaviy jarayonlarni ko'rib chiqish",
         point2: "Biznes-jarayonni avtomatlashtirish, optimallashtirish (ERPni joriy etish)",
+        point3: "Maxsus KPI bilan boshqaruv hisobotini sozlash",
+        point4: "ERP joriy etish va optimallashtirish",
+        point5: "Power BI va Excel avtomatlashtirish (VBA'ni o'z ichiga olgan holda)"
       },
       analysis: {
         title: "Moliyaviy tahlil",
-        point1: "Umumiy moliyaviy koeffitsientlar tahlili",
-        point2: "Biznesga qarab maxsus koeffitsientlar va tahlil",
-        point3: "Kapital tuzilishi tahlili, aylanma kapital samaradorligi va to'liq quvvat tahlili hamda rentabellik nuqtasi",
-        point4: "Qaror qabul qilish uchun maxsus hisobotlar",
+        point1: "Professional moliyaviy hisobotlar tayyorlash (P&L, balans, pul oqimi)",
+        point2: "Keng qamrovli moliyaviy tahlil va biznes diagnostikasi",
+        point3: "Umumiy moliyaviy koeffitsientlar tahlili",
+        point4: "Biznesga qarab maxsus koeffitsientlar va tahlil"
       },
       planning: {
         title: "Moliyaviy rejalashtirish va prognozlash/byudjetlashtirish",
-        point1: "Biznes ko'rsatkichlarini (ham tijorat, ham moliyaviy) va moliyaviy hisobotlarni byudjetlashtirish/prognozlash",
-        point2: "Farqlar tahlili",
+        point1: "Byudjetlashtirish tizimlarini ishlab chiqish va joriy etish",
+        point2: "Byudjet tayyorlash va biznes ko'rsatkichlarini prognozlash",
+        point3: "Farqlar tahlili",
+        point4: "Pul oqimi tahlili va prognozlashtirish"
       },
       modeling: {
         title: "Moliyaviy modellashtirish",

@@ -128,7 +128,9 @@
   }
 
   .services-grid.four-services {
+    grid-template-columns: 1fr;
     gap: 32px;
+    max-width: 520px;
   }
 
   .service-card {
