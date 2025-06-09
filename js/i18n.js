@@ -5,7 +5,6 @@ const translations = {
       about: "About",
       services: "Services",
       expertise: "Expertise",
-      recognition: "Recognition",
       contact: "Contact",
     },
     hero: {
@@ -56,16 +55,7 @@ const translations = {
         point1: "Modeling business cases for new projects/new business streams/products and services which includes 3-Statement modeling/DCF/Market comparison approaches",
       },
     },
-    recognition: {
-      tag: "Recognition",
-      title: "Award-Winning Expertise",
-      description:
-        "Finspect Advisory has received the Gold Trainee Development award from ACCA in recognition of our work towards preparing IFRS and Finance professionals.",
-      award: {
-        title: "ACCA Gold Trainee Development",
-        description: "Excellence in professional development",
-      },
-    },
+
     contact: {
       tag: "Contact Us",
       title: "Get in Touch",
@@ -81,10 +71,9 @@ const translations = {
   },
   ru: {
     nav: {
-      about: "О нас где-то так",
+      about: "О нас",
       services: "Услуги",
       expertise: "Экспертиза",
-      recognition: "Признание",
       contact: "Контакты",
     },
     hero: {
@@ -135,16 +124,7 @@ const translations = {
         point1: "Моделирование бизнес-кейсов для новых проектов/новых направлений бизнеса/продуктов и услуг, включая подходы моделирования с использованием трех утверждений/DCF/сравнения рынков"
       },
     },
-    recognition: {
-      tag: "Признание",
-      title: "Отмеченный наградами опыт",
-      description:
-        "Finspect Advisory получил золотую награду за развитие стажеров от ACCA в знак признания нашей работы по подготовке специалистов по МСФО и финансам.",
-      award: {
-        title: "Золотая награда ACCA за развитие стажеров",
-        description: "Превосходство в профессиональном развитии",
-      },
-    },
+
     contact: {
       tag: "Свяжитесь с нами",
       title: "Связаться",
@@ -163,7 +143,6 @@ const translations = {
       about: "Biz haqimizda",
       services: "Xizmatlar",
       expertise: "Ekspertiza",
-      recognition: "Tan olinish",
       contact: "Aloqa",
     },
     hero: {
@@ -214,16 +193,7 @@ const translations = {
         point1: "Yangi loyihalar/yangi biznes yo'nalishlari/mahsulotlar va xizmatlar uchun biznes holatlarini modellashtirish, shu jumladan 3-Statement modellashtirish/DCF/Bozor taqqoslash yondashuvlari",
       },
     },
-    recognition: {
-      tag: "Tan olinish",
-      title: "Mukofotlangan ekspertiza",
-      description:
-        "Finspect Advisory MSFO va moliya mutaxassislarini tayyorlash bo'yicha ishimizni tan olish sifatida ACCA'dan Oltin stajer rivojlantirish mukofotini oldi.",
-      award: {
-        title: "ACCA Oltin stajer rivojlantirish",
-        description: "Professional rivojlanishda mukammallik",
-      },
-    },
+
     contact: {
       tag: "Biz bilan bog'laning",
       title: "Aloqaga chiqing",
