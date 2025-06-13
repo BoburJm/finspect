@@ -35,10 +35,6 @@ The website supports three languages:
 
 Language preferences are saved in localStorage for better user experience.
 
-## 🏆 Recognition
-
-Finspect Advisory has received the **ACCA Gold Trainee Development** award for excellence in professional development and IFRS training.
-
 ## 📍 Contact Information
 
 - **Address**: 9, Buyuk Ipak Yuli st., Mirzo-Ulugbek district, Tashkent, UZ
